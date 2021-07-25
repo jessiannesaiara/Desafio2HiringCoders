@@ -1,4 +1,4 @@
-let produtos = JSON.parse (localStorage.getItem("produtos"))
+let produtos = JSON.parse(localStorage.getItem("produtos"))
 
 let tbody = document.getElementById("tb-product")
 

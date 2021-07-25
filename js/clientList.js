@@ -1,4 +1,4 @@
-let clientes = JSON.parse (localStorage.getItem("clientes"))
+let clientes = JSON.parse(localStorage.getItem("clientes"))
 
 let tbody = document.getElementById("tb-client")
 
