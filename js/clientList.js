@@ -2,7 +2,7 @@ let clientes = JSON.parse(localStorage.getItem("clientes"))
 
 let tbody = document.getElementById("tb-client")
 
-if(clientes.length > 0) {
+if(clientes) {
   let lista  = clientes.map(function(cliente) {
     return `<tr>
       <td>${cliente.nome}</td>

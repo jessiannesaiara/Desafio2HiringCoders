@@ -2,7 +2,7 @@ let produtos = JSON.parse(localStorage.getItem("produtos"))
 
 let tbody = document.getElementById("tb-product")
 
-if(produtos.length > 0) {
+if(produtos) {
   let lista  = produtos.map(function(produto) {
     return `<tr>
       <td>${produto.codigo}</td>
