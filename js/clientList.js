@@ -1,6 +1,5 @@
 let clientes = JSON.parse (localStorage.getItem("clientes"))
 
-
 let tbody = document.getElementById("tb-client")
 
 let lista  = clientes.map(function(cliente, indice) {
