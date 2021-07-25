@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background-section-two {
+  background-image: url(../images/backgroundmeio1.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.section-container {
+  width: 100%;
+}
+
+
+.button {
+  background-color: #199e9e;
+  color: #ffff;
+  height: 3.5rem;
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  font: 500 1rem 'DM Sans', sans-serif;
+  font-weight: bold;
+  transition: background 0.3s;
+  position: relative;
+  align-content: center;
+  bottom: 140px;
+  left: 37%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #000;
+  
+}
+
+#bemvindo {
+  font-size: 30px;
+ text-align: center;
+ }
+#realize {
+ text-align: center;
+  font-size: 30px;
+  padding: 0% 0% 15% 0%;
+}
+#logo {
+ padding: 15% 20% 0% 10%;
+}
+
+footer{
+ padding: 15px;
+  height: 150px;
+  text-align: center;
+  background-color: #000;
+  background-size: cover;
+  color: #ffff;
+  background-size: cover;
+}
